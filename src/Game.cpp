@@ -1,5 +1,11 @@
 #include "Game.hpp"
 
-void Game::game_loop(){
-
-};
+namespace Game{
+	bool not_over = true;
+	
+	void game_loop(){
+		while (not_over){
+		
+		}
+	};
+}

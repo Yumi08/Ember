@@ -1,4 +1,7 @@
-class Game{
-public:
-	static void game_loop();
-};
+#pragma once
+
+namespace Game{
+	extern bool not_over;
+
+	void game_loop();
+}
