@@ -2,7 +2,7 @@
 #include <random>
 #include <ctime>
 
-#include "Entity.hpp"
+#include "Game.hpp"
 
 void setup(){
 	std::ios_base::sync_with_stdio(false);
@@ -11,4 +11,6 @@ void setup(){
 
 int main(){
 	setup();
+	
+	Game::game_loop();
 }
