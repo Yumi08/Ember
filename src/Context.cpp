@@ -1,6 +1,6 @@
-#include "Game_Context.hpp"
+#include "Context.hpp"
 
-namespace Game_Context{
+namespace Context{
 unsigned int score = 0;
 unsigned int turn = 1;
 Player_Character Player = Player_Character();
