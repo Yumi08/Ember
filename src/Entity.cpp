@@ -1,5 +1,6 @@
 #include "Entity.hpp"
-#include "Global.hpp"
+
+#include "Tools.hpp"
 
 Entity::Entity(){
 	ID = Generate_ID();
