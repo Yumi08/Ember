@@ -2,8 +2,8 @@
 
 #include "Player_Character.hpp"
 
-struct Game_Context{
-	unsigned int score = 0;
-	unsigned int turn = 1;
-	Player_Character Player;
+namespace Game_Context{
+	extern unsigned int score;
+	extern unsigned int turn;
+	extern Player_Character Player;
 };
